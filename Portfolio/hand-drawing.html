@@ -1,0 +1,67 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Hand Drawing</title>
+</head>
+
+<body>
+    <div class="outside">
+        <div class="container">
+            <div class="hstack">
+                <a href="index.html" class="title"><h2>JANET CHANG</h2></a>
+
+                <div class="hstack">
+                    <a href="about.html" class="navigation-button"><h2>About</h2></a>
+                    <a href="digital-design.html" class="navigation-button"><h2>Digital Design</h2></a>
+                    <div class="selected">
+                        <a href="hand-drawing.html" class="navigation-button"><h2>Hand Drawing</h2></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="photo-gallery">
+                <div class="column">
+                    <div class="photo">
+                        <img src="p2.jpg" alt="" onclick="openPopup('p2.jpg', 'During the hot summer, I just want to jump into the pool. However, I want to see if the pool without the water can already give the feeling of coldness. ')">
+                    </div>
+                    <div class="photo">
+                        <img src="p7.jpg" alt="" onclick="openPopup('p7.jpg', 'Sunny side up, avocado, and toast all together create the ideal breakfast in the morning.')">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="photo">
+                        <img src="p4.jpg" alt="" onclick="openPopup('p4.jpg', 'Frog wondering about life in the forest. I was depressed and needed some comfort in my life so I drew a frog that has a beautiful house in a beautiful forest he was still not happy so he was wondering about his life.')">
+                    </div>
+                    <div class="photo">
+                        <img src="p5.jpg" alt="" onclick="openPopup('p5.jpg', 'For my LMC 2700 class, I need to create a pet-raising game with other classmates. My job for this assignment was to draw the backgrounds for the game. For this background, this is the store where the player will buy all the things they need for their pet.')">
+                    </div>
+                    <div class="photo">
+                        <img src="p6.jpg" alt="" onclick="openPopup('p6.jpg', 'For my LMC 2700 class, I need to create a pet-raising game with other classmates. My job for this assignment was to draw the backgrounds for the game. This is the first background which is the park for the player to go for walking their pet.')">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="photo">
+                        <img src="p3.jpg" alt="" onclick="openPopup('p3.jpg', 'Sometimes people are like fish. Swimming in the deep dark water without direction. I want to draw myself wandering in the dark water trying to seek others and purpose.')">
+                    </div>
+                    <div class="photo">
+                        <img src="p8.jpg" alt="" onclick="openPopup('p8.jpg', 'For my LMC 2700 class, I need to create a pet-raising game with other classmates. My job for this assignment was to draw the backgrounds for the game. For this background, this is the player room and where they will interact with their pet the most.')">
+                    </div>
+                    <div class="photo">
+                        <img src="p1.jpg" alt="" onclick="openPopup('p1.jpg', 'The eyes are the most important part of the human face. Looking through people\'s eyes you can see their emotions. By mainly using the three primary colors, I captured the detail and emotion of the eye.')">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <div class="popup-content">
+            <img src="" alt="" id="popupImage">
+            <p id="popupText"></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

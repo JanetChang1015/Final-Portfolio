@@ -1,0 +1,59 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Digital Design</title>
+</head>
+
+<body>
+    <div class="outside">
+        <div class="container">
+            <div class="hstack">
+                <a href="index.html" class="title"><h2>JANET CHANG</h2></a>
+
+                <div class="hstack">
+                    <a href="about.html" class="navigation-button"><h2>About</h2></a>
+                    <div class="selected">
+                        <a href="digital-design.html" class="navigation-button"><h2>Digital Design</h2></a>
+                    </div>
+                    <a href="hand-drawing.html" class="navigation-button"><h2>Hand Drawing</h2></a>
+                </div>
+            </div>
+
+            <div class="photo-gallery">
+                <div class="column">
+                    <div class="photo">
+                        <img src="d1.png" alt="" onclick="openPopup('d1.png', 'In my art class, we have to redesign the billboard of Georgia Tech. This billboard is meant to encourage viewers to attend Georgia Tech by motivating them through the idea of success, a value heavily associated with the brand. We also wanted to incorporate recognizable aspects of the brand such as Tech Tower.')">
+                    </div>
+                    <div class="photo">
+                        <img src="d3.jpg" alt="" onclick="openPopup('d3.jpg', 'I used purple as my main color and used different graphs like stickers on the notebook. I want to make the design look young and chaotic (I want to make the feeling of a teenage girl being confused and writing in a massive notebook note feeling). While I was making I suddenly thought about what if I listed all my concert locations and dates as items on the receipt, and that\'s what I did. I go online and download the typographic they use for the receipt and I\'m happy with the result.')">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="photo">
+                        <img src="d4.jpg" alt="" onclick="openPopup('d4.jpg', 'I want to be clean and instinctual. I used colors to separate categories so it\'s easy to see each of them. The influence kind of gave me an idea of how most of the tracking apps function and what the basic elements should be included.')">
+                    </div>
+                    <div class="photo">
+                        <img src="d5.jpeg" alt="" onclick="openPopup('d5.jpeg', 'I was thinking about how to take a fun, silly comedy and turn it into a creepy, uncomfortable movie. I mainly use the home-alone poster, and I wanted to incorporate a little bit of The Shining, so I changed the red house in the poster text to the iconic rug from The Shining and added a knife that reflected Jack Torrance\'s face. I was trying to create a plot where a crazed adult tries to hunt down a child who is home alone.')">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="photo">
+                        <img src="d2.jpg" alt="" onclick="openPopup('d2.jpg', 'In my art class, we have to redesign the website of Georgia Tech. The existing Georgia Tech website is very cluttered and outdated. To modernize and simplify that design we minimized the information on our website by removing a lot of items on the menu. Also, we wanted to directly reflect students\' interests by including drawings that represent different Georgia Tech Majors.')">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <div class="popup-content">
+            <img src="" alt="" id="popupImage">
+            <p id="popupText"></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
